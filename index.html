@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sagar Kirana Store | Grocery in Moranga, Govindpur, Dhanbad</title>
+<meta name="description" content="Sagar Kirana Store in Moranga, Govindpur, Dhanbad. Rice, dal, atta, oils, spices, snacks and household items. Order on WhatsApp or call 9153786322.">
+<meta name="theme-color" content="#B5471B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23B5471B'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23F7F0E3' font-family='serif'%3ESK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F0E3;--card:#FFF9EC;--ink:#2B2622;--muted:#6B6158;--accent:#B5471B;--gold:#E8A317;--green:#25643B;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.1;letter-spacing:-.01em}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:96px 0}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:800;text-decoration:none;border:2px solid var(--accent);font-size:15px;min-height:48px}
+.btn.fill{background:var(--green);border-color:var(--green);color:#fff}
+.btn.out{background:transparent;color:var(--accent)}
+.btn.sm{padding:8px 16px;min-height:40px;font-size:14px}
+.eyebrow{font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:12px;color:var(--accent);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.eyebrow svg{width:22px;height:22px}
+h2{font-size:clamp(30px,5vw,48px);margin-bottom:16px}
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid #e3d6bd}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:'Fraunces',serif;font-weight:800;font-size:19px}
+.logo b{width:38px;height:38px;border-radius:50%;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-size:15px}
+nav{display:flex;gap:22px}
+nav a{text-decoration:none;font-weight:600;font-size:15px}
+nav a:hover{color:var(--accent)}
+.hbtns{display:flex;gap:8px;align-items:center}
+.burger{display:none;background:none;border:2px solid var(--ink);border-radius:10px;width:44px;height:44px;font-size:20px;cursor:pointer;color:var(--ink)}
+/* hero */
+.hero{padding-top:56px}
+.hgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(36px,6vw,68px);margin-bottom:20px}
+.hero h1 em{color:var(--accent);font-style:normal}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:520px;margin-bottom:12px}
+.proof{font-weight:700;font-size:14px;margin-bottom:26px;color:var(--green)}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.hvis{position:relative}
+.hvis img{width:100%;height:440px;object-fit:cover;border-radius:200px 200px var(--r) var(--r);background:#e8d9b8}
+.badge{position:absolute;left:-18px;bottom:28px;background:var(--gold);color:var(--ink);padding:14px 18px;border-radius:var(--r);font-family:'Fraunces',serif;font-weight:800;line-height:1.1;transform:rotate(-4deg);box-shadow:0 8px 0 rgba(43,38,34,.12)}
+.badge small{display:block;font-family:'Manrope',sans-serif;font-weight:600;font-size:12px}
+/* trust */
+.trust{padding:0}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink);color:var(--bg);border-radius:var(--r);margin-top:8px}
+.tgrid div{padding:26px 20px;border-right:1px solid #ffffff22}
+.tgrid div:last-child{border:0}
+.tgrid strong{font-family:'Fraunces',serif;font-size:34px;display:block;color:var(--gold)}
+.tgrid span{font-size:14px}
+/* products */
+.pgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin-top:36px}
+.card{background:var(--card);border:1px solid #e3d6bd;border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:8px;grid-column:span 2}
+.card.wide{grid-column:span 3}
+.card.big{grid-column:span 4;background:var(--accent);color:#fff;border-color:var(--accent)}
+.card.big p,.card.big .pr{color:#ffeedd}
+.card.big .btn{background:#fff;color:var(--accent);border-color:#fff}
+.ic{font-size:34px}
+.card h3{font-size:22px}
+.card p{color:var(--muted);font-size:15px;flex:1}
+.pr{font-weight:800;font-size:13px;color:var(--accent)}
+/* about */
+.about{background:var(--ink);color:var(--bg);margin:0}
+.about .eyebrow{color:var(--gold)}
+.agrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.av{width:180px;height:180px;border-radius:50%;background:var(--accent);display:grid;place-items:center;font-family:'Fraunces',serif;font-size:64px;font-weight:800;color:var(--bg);border:6px solid var(--gold);margin-bottom:18px}
+.about p{margin-bottom:14px;color:#e9dfcc}
+.about ul{list-style:none;margin-top:18px;display:grid;gap:10px}
+.about li{display:flex;gap:10px;align-items:flex-start}
+.about li svg{width:20px;height:20px;flex:none;margin-top:3px}
+/* gallery */
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:14px;margin-top:32px}
+.ggrid img{width:100%;height:100%;object-fit:cover;border-radius:var(--r);background:#e8d9b8}
+.ggrid img:nth-child(1){grid-column:span 2;grid-row:span 2}
+.ggrid img:nth-child(4){grid-row:span 2}
+.ggrid img:nth-child(5){grid-column:span 2}
+/* reviews */
+.rv{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.stars{display:flex;gap:4px;margin:12px 0}
+.stars svg{width:24px;height:24px}
+.rbox{background:var(--card);border:2px dashed var(--accent);border-radius:var(--r);padding:28px}
+/* pricing */
+.plist{margin-top:28px;max-width:760px;list-style:none}
+.plist li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px dashed #cdbd9c;font-weight:600}
+.plist span:last-child{color:var(--accent);font-weight:800;white-space:nowrap}
+.note{margin-top:16px;color:var(--muted);font-size:14px}
+/* contact */
+.cgrid{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;margin-top:32px}
+.hours{width:100%;border-collapse:collapse;margin:14px 0 22px}
+.hours td{padding:10px 0;border-bottom:1px solid #e3d6bd}
+.hours td:last-child{text-align:right;font-weight:800}
+.cm{display:grid;gap:10px}
+iframe{width:100%;height:100%;min-height:360px;border:0;border-radius:var(--r);background:#e8d9b8}
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:72px 0 110px}
+.fgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px}
+footer h2{font-size:34px}
+footer .links{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0}
+footer .links a{text-decoration:none;color:#e9dfcc}
+.big-wa{display:block;text-align:center;background:var(--green);color:#fff;padding:22px;border-radius:var(--r);font-family:'Fraunces',serif;font-weight:800;font-size:24px;text-decoration:none}
+.built{margin-top:40px;font-size:12px;text-transform:lowercase;color:#bfb39b;text-align:center}
+/* sticky bottom */
+.mbar{display:none}
+@media(max-width:1080px){.pgrid{grid-template-columns:repeat(2,1fr)}.card,.card.wide,.card.big{grid-column:span 1}.card.big{grid-column:span 2}}
+@media(max-width:820px){
+section{padding:72px 0}
+.hgrid,.agrid,.rv,.cgrid,.fgrid{grid-template-columns:1fr}
+.hvis img{height:320px}
+.badge{left:8px}
+.tgrid{grid-template-columns:1fr 1fr}
+.tgrid div:nth-child(2){border-right:0}
+.tgrid div:nth-child(-n+2){border-bottom:1px solid #ffffff22}
+.burger{display:block}
+nav{display:none;position:absolute;top:68px;left:0;right:0;background:var(--bg);flex-direction:column;padding:18px 20px;border-bottom:1px solid #e3d6bd;gap:16px}
+nav.open{display:flex}
+.hbtns .btn{display:none}
+.mbar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:1px solid #e3d6bd;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px))}
+.mbar .btn{justify-content:center}
+.ggrid{grid-template-columns:1fr 1fr;grid-auto-rows:140px}
+.ggrid img:nth-child(n){grid-column:auto;grid-row:auto}
+.ggrid img:nth-child(1){grid-column:span 2;grid-row:span 2}
+}
+@media(max-width:520px){
+.pgrid{grid-template-columns:1fr}.card.big{grid-column:span 1}
+.logo span{font-size:16px}
+.tgrid strong{font-size:28px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="mari" viewBox="0 0 48 48"><g fill="#E8A317"><circle cx="24" cy="10" r="8"/><circle cx="24" cy="38" r="8"/><circle cx="10" cy="24" r="8"/><circle cx="38" cy="24" r="8"/><circle cx="14" cy="14" r="7"/><circle cx="34" cy="14" r="7"/><circle cx="14" cy="34" r="7"/><circle cx="34" cy="34" r="7"/></g><circle cx="24" cy="24" r="8" fill="#B5471B"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path fill="#E8A317" d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z"/></symbol>
+</svg>
+
+<header>
+<div class="wrap bar">
+<a class="logo" href="#top"><b>SK</b><span>Sagar Kirana Store</span></a>
+<nav id="nav" aria-label="Main">
+<a href="#products">Products</a><a href="#about">About</a><a href="#prices">Prices</a><a href="#contact">Contact</a>
+</nav>
+<div class="hbtns">
+<a class="btn out sm" href="tel:+919153786322">Call</a>
+<a class="btn fill sm" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+</div>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap hgrid">
+<div>
+<div class="eyebrow"><svg><use href="#mari"/></svg>Moranga, Govindpur, Dhanbad</div>
+<h1>Everything your home needs, <em>under one roof</em> in Moranga.</h1>
+<p class="lead">Rice, dal, atta, oils, spices, snacks and daily essentials from your neighbourhood kirana store, owned by Sagar Kumbhakar.</p>
+<p class="proof">Open 7 AM to 9 PM &middot; Serving Moranga since 2025</p>
+<div class="cta">
+<a class="btn fill" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20would%20like%20to%20place%20an%20order%20for%20groceries." target="_blank" rel="noopener">Order on WhatsApp</a>
+<a class="btn out" href="tel:+919153786322">Call 9153786322</a>
+</div>
+</div>
+<div class="hvis">
+<img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&auto=format&fit=crop" alt="Shelves stocked with grocery items" width="800" height="440">
+<div class="badge">Since 2025<small>Your local kirana</small></div>
+</div>
+</div>
+</section>
+
+<section class="trust" aria-label="Highlights">
+<div class="wrap"><div class="tgrid">
+<div><strong>9</strong><span>Product categories</span></div>
+<div><strong>14 hrs</strong><span>Open every day, 7 AM to 9 PM</span></div>
+<div><strong>2025</strong><span>Serving Moranga since</span></div>
+<div><strong>1 tap</strong><span>To order on WhatsApp</span></div>
+</div></div>
+</section>
+
+<section id="products">
+<div class="wrap">
+<div class="eyebrow"><svg><use href="#mari"/></svg>What we stock</div>
+<h2>Daily essentials, all in one place</h2>
+<p style="color:var(--muted);max-width:560px">Tap any item to ask about it on WhatsApp. Prices are shared directly by the shopkeeper.</p>
+<div class="pgrid">
+<article class="card big"><div class="ic">🍚</div><h3>Rice and Dal</h3><p>Everyday rice and a range of dals for your kitchen.</p><span class="pr">Price on request</span><a class="btn sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20the%20price%20and%20availability%20of%20rice%20and%20dal." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><div class="ic">🌾</div><h3>Atta and Maida</h3><p>Fresh flour for rotis, puris and baking.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20the%20price%20of%20atta%20and%20maida." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card wide"><div class="ic">🫒</div><h3>Mustard and Refined Oil</h3><p>Cooking oils for everyday meals and festive cooking.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20the%20price%20of%20mustard%20oil%20and%20refined%20oil." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card wide"><div class="ic">🧂</div><h3>Sugar and Salt</h3><p>Kitchen basics, always in stock.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20the%20price%20of%20sugar%20and%20salt." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><div class="ic">🍪</div><h3>Biscuits and Namkeen</h3><p>Snacks for tea time and guests.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20about%20biscuits%20and%20namkeen." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><div class="ic">☕</div><h3>Tea and Coffee</h3><p>Your morning cup, sorted.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20about%20tea%20and%20coffee." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card"><div class="ic">🧼</div><h3>Soap and Shampoo</h3><p>Bath and personal care essentials.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20about%20soap%20and%20shampoo." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card wide"><div class="ic">🧺</div><h3>Household Items</h3><p>Cleaning and daily-use things for the home.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20about%20household%20items." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+<article class="card wide"><div class="ic">🌶️</div><h3>Spices and Kirana Staples</h3><p>Everyday masalas and pantry supplies.</p><span class="pr">Price on request</span><a class="btn out sm" href="https://wa.me/919153786322?text=Hello%2C%20I%20want%20to%20know%20about%20spices%20and%20kirana%20items." target="_blank" rel="noopener">Ask on WhatsApp</a></article>
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="wrap agrid">
+<div><div class="av" aria-hidden="true">SK</div><h3 style="font-size:28px">Sagar Kumbhakar</h3><p style="color:var(--gold);font-weight:700">Owner, Sagar Kirana Store</p></div>
+<div>
+<div class="eyebrow"><svg><use href="#mari"/></svg>About the shop</div>
+<h2>A neighbourhood shop, built for neighbours</h2>
+<p>I started Sagar Kirana Store in 2025 right here in Moranga. I wanted people in Govindpur to find their daily needs without travelling far or waiting long.</p>
+<p>Every day, from 7 in the morning to 9 at night, the shutter is open. Walk in, call, or send a message on WhatsApp and I will help you personally.</p>
+<ul>
+<li><svg><use href="#mari"/></svg>Locally owned in Moranga, Govindpur</li>
+<li><svg><use href="#mari"/></svg>Open 7 AM to 9 PM</li>
+<li><svg><use href="#mari"/></svg>Order on WhatsApp in one tap</li>
+<li><svg><use href="#mari"/></svg>Wide range from atta to shampoo</li>
+<li><svg><use href="#mari"/></svg>Honest prices confirmed by the owner</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="wrap">
+<div class="eyebrow"><svg><use href="#mari"/></svg>Gallery</div>
+<h2>Fresh stock, tidy shelves</h2>
+<div class="ggrid">
+<img loading="lazy" src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&auto=format&fit=crop" alt="Grocery shelves">
+<img loading="lazy" src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&auto=format&fit=crop" alt="Rice grains">
+<img loading="lazy" src="https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=800&auto=format&fit=crop" alt="Indian spices">
+<img loading="lazy" src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&auto=format&fit=crop" alt="Fresh groceries">
+<img loading="lazy" src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&auto=format&fit=crop" alt="Store aisle">
+<img loading="lazy" src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=800&auto=format&fit=crop" alt="Pulses and lentils">
+</div>
+</div>
+</section>
+
+<section id="reviews">
+<div class="wrap rv">
+<div>
+<div class="eyebrow"><svg><use href="#mari"/></svg>Reviews</div>
+<h2>Shopped with us? Tell your neighbours.</h2>
+<p style="color:var(--muted)">We are a new shop and we only show real reviews. Share your experience and it could appear here.</p>
+</div>
+<div class="rbox">
+<div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+<p style="margin-bottom:18px">Send us a quick note about your visit on WhatsApp.</p>
+<a class="btn fill" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20would%20like%20to%20share%20my%20feedback." target="_blank" rel="noopener">Share feedback</a>
+</div>
+</div>
+</section>
+
+<section id="prices">
+<div class="wrap">
+<div class="eyebrow"><svg><use href="#mari"/></svg>Pricing</div>
+<h2>Simple, honest prices</h2>
+<ul class="plist">
+<li><span>Rice and Dal</span><span>Ask for today's price</span></li>
+<li><span>Atta and Maida</span><span>Ask for today's price</span></li>
+<li><span>Mustard and Refined Oil</span><span>Ask for today's price</span></li>
+<li><span>Sugar and Salt</span><span>Ask for today's price</span></li>
+<li><span>Biscuits and Namkeen</span><span>Ask for today's price</span></li>
+<li><span>Tea and Coffee</span><span>Ask for today's price</span></li>
+<li><span>Soap and Shampoo</span><span>Ask for today's price</span></li>
+<li><span>Household Items and Spices</span><span>Ask for today's price</span></li>
+</ul>
+<p class="note">Grocery prices change often, so we confirm them directly with you.</p>
+<p style="margin-top:20px"><a class="btn fill" href="https://wa.me/919153786322?text=Hello%2C%20please%20share%20today's%20price%20list." target="_blank" rel="noopener">Get price list on WhatsApp</a></p>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+<div class="eyebrow"><svg><use href="#mari"/></svg>Visit us</div>
+<h2>Find us in Moranga</h2>
+<div class="cgrid">
+<div>
+<p><strong>Sagar Kirana Store</strong><br>Moranga, Govindpur, Dhanbad, Jharkhand</p>
+<table class="hours"><tbody>
+<tr><td>Monday to Saturday</td><td>7:00 AM to 9:00 PM</td></tr>
+<tr><td>Sunday</td><td>7:00 AM to 9:00 PM</td></tr>
+</tbody></table>
+<p class="note" style="margin:-10px 0 18px">Hours are approximate.</p>
+<div class="cm">
+<a class="btn out" href="tel:+919153786322">Call 9153786322</a>
+<a class="btn fill" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20have%20a%20question." target="_blank" rel="noopener">Chat on WhatsApp</a>
+<a class="btn out" href="https://www.google.com/maps/search/?api=1&query=Moranga%2C%20Govindpur%2C%20Dhanbad%2C%20Jharkhand" target="_blank" rel="noopener">Open in Google Maps</a>
+</div>
+</div>
+<iframe title="Map to Sagar Kirana Store" loading="lazy" src="https://maps.google.com/maps?q=Moranga%2C%20Govindpur%2C%20Dhanbad%2C%20Jharkhand&output=embed"></iframe>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fgrid">
+<div>
+<h2>Sagar Kirana Store</h2>
+<p style="color:#e9dfcc">Everything your home needs, under one roof.</p>
+<div class="links"><a href="#products">Products</a><a href="#about">About</a><a href="#prices">Prices</a><a href="#contact">Contact</a></div>
+<p style="font-size:14px;color:#bfb39b">&copy; <span id="yr">2026</span> Sagar Kirana Store, Moranga, Govindpur, Dhanbad</p>
+</div>
+<a class="big-wa" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20would%20like%20to%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+</div>
+<p class="built">built with ❤️ by 21.coders</p>
+</div>
+</footer>
+
+<div class="mbar">
+<a class="btn out" href="tel:+919153786322">Call</a>
+<a class="btn fill" href="https://wa.me/919153786322?text=Hello%20Sagar%20Kirana%20Store%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+</script>
+</body>
+</html>
